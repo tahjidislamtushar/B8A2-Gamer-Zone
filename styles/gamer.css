@@ -9,6 +9,17 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.web-title-primary {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #0B0223;
+    cursor: pointer;
+}
+
+.g-style-primary {
+    color: #FF42A5;
+}
+
 .btn-primary {
     color: #FFF;
     font-size: 18px;
@@ -50,16 +61,6 @@ nav {
     padding-right: 20px;
 }
 
-.web-title-primary {
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #0B0223;
-    cursor: pointer;
-}
-
-.g-style {
-    color: #FF42A5;
-}
 
 nav>ul {
     display: flex;
@@ -202,7 +203,7 @@ nav>ul .follow-us {
 
 /* Play Game Online Section */
 
-.play-games-online{
+.play-games-online {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -210,16 +211,19 @@ nav>ul .follow-us {
     justify-content: center;
     margin-bottom: 12px;
 }
-.play-online-img-container{
+
+.play-online-img-container {
     padding-left: 10px;
 }
-.play-online-img-container> .mini-img{
+
+.play-online-img-container>.mini-img {
     position: relative;
     right: 105px;
     top: 65px;
 }
-.play-game-online-content{
-    text-align:right;
+
+.play-game-online-content {
+    text-align: right;
     padding-left: 200px;
 }
 
@@ -232,13 +236,68 @@ nav>ul .follow-us {
 }
 
 .play-game-online-description {
-    
+
     color: #534C64;
     font-size: 16px;
     font-weight: 400;
     text-align: left;
     align-items: right;
     justify-content: right;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 120px;
+    background: #0B0223;
+}
+
+.web-title {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    gap: 40px;    
+    padding-left: 500px;
+}
+.icons>a{
+    position: relative;
+    justify-content: center;
+}
+.policy {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    justify-content: center;
+    color: #ffffff99;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.copyright {
+    color: #ffffff99;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 /* ------------------------------------------- */
