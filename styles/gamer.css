@@ -23,13 +23,24 @@
     cursor: pointer;
 }
 
+.title-primary {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
 /* Header Styles */
 
 /* Nav Styles */
 
 nav {
+    max-width: 1920px;
+    margin: 0 auto;
     background-color: #FFF;
-    padding: 30px 120px;
+    padding: 30px 240px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -85,30 +96,35 @@ nav>ul .follow-us {
 /* Banner Styles */
 
 .banner {
-    padding: 30px 120px;
-    display: flex;
-    align-items: left;
     background-image: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: top left;
-    justify-content: space-between;
-    margin-bottom: 150px;
+   
 }
 .banner-container{
-    margin: 0;
-    padding: 0;
+    
+    max-width: 1992px;
+    margin: 0 auto;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;    
+    padding: 30px 240px;
+    
 }
-.banner-content{
+
+.banner-content {
     margin: 0;
     padding: 0;
     gap: 0;
 }
+
 .banner-img {
-    width: 710px;
+    max-width: 400px;
+    padding-top: 35px;
 }
 
 .banner-title-1 {
-    padding-: 30px 320px 0px 120px;
+    padding-: 30px 240px 0px 120px;
     color: #0B0223;
     text-align: left;
     font-size: 3rem;
@@ -116,7 +132,7 @@ nav>ul .follow-us {
 }
 
 .banner-title-2 {
-    padding-: 0px 320px 0px 120px;
+    padding-: 0px 240px 0px 120px;
     text-align: left;
     font-size: 5.1rem;
     font-weight: 600;
@@ -127,7 +143,7 @@ nav>ul .follow-us {
 }
 
 .banner-description {
-    padding-: 0px 320px 0px 120px;
+    padding-: 0px 240px 0px 120px;
     color: #534C64;
     font-size: 16px;
     font-weight: 400;
@@ -144,6 +160,45 @@ nav>ul .follow-us {
     border: none;
     border-radius: 48px;
     background: #4EC5F7;
+}
+
+/* Online Games Section */
+
+.online-games {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.game-title {
+    color: #0B0223;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.items-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.games-image-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.img-description {
+    padding: 15px 150px;
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 250px;
 }
 
 /* ------------------------------------------- */
