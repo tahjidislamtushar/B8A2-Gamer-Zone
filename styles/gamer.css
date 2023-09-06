@@ -1,22 +1,35 @@
 /* Font Resources */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* Primary Styles */
+
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
 
-/* Header Styles */
-
-.header {
-    padding: 30px 240px;
+.btn-primary {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    cursor: pointer;
 }
+
+/* Header Styles */
 
 /* Nav Styles */
 
 nav {
     background-color: #FFF;
+    padding: 30px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,6 +43,7 @@ nav {
     font-size: 2.8rem;
     font-weight: 700;
     color: #0B0223;
+    cursor: pointer;
 }
 
 .g-style {
@@ -45,14 +59,16 @@ nav ul div {
     display: flex;
 }
 
-nav li {
+nav li,
+p {
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
     font-size: 1rem;
 }
 
-nav li a {
+nav li a,
+p {
     text-decoration: none;
     color: #3C354F;
 }
@@ -63,9 +79,72 @@ nav>ul .follow-us {
     align-items: center;
     padding: 15px 25px;
     color: #3C354F;
-    gap: 10px;
+    gap: 15px;
 }
 
+/* Banner Styles */
+
+.banner {
+    padding: 30px 120px;
+    display: flex;
+    align-items: left;
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.banner-container{
+    margin: 0;
+    padding: 0;
+}
+.banner-content{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.banner-img {
+    width: 710px;
+}
+
+.banner-title-1 {
+    padding-: 30px 320px 0px 120px;
+    color: #0B0223;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.banner-title-2 {
+    padding-: 0px 320px 0px 120px;
+    text-align: left;
+    font-size: 5.1rem;
+    font-weight: 600;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.banner-description {
+    padding-: 0px 320px 0px 120px;
+    color: #534C64;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-go-rogue {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-flex;
+    padding: 18px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
 
 /* ------------------------------------------- */
 
@@ -74,14 +153,16 @@ nav>ul .follow-us {
 /* For Mobile Devices */
 
 @media screen and (max-width: 576px) {
-    header{
+    header {
         padding: 20px;
     }
-    nav{
+
+    nav {
         padding: 20px;
     }
-    nav>ul:{
+
+    nav>ul: {
         padding: 20px;
-    }    
-    
+    }
+
 }
